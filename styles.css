@@ -8,6 +8,7 @@
   --main-color: #EAAE37;
   --body-color: #17181d;
   --box-color: #282835;
+  --normal-font-size: 1em;
 }
 *,
 ::before,
@@ -290,7 +291,7 @@ article{
 .skills-title { font-size: var(--h3-font-size); font-weight: var(--font-medium); line-height: 0px; }
 .skills-subtitle { font-size: var(--small-font-size); }
 .skills-list { row-gap: 1.8rem; }
-.skills-titles { display: flex; justify-content: space-between; margin-bottom: .5rem; line-height: 0; }
+.skills-titles { display: flex; justify-content: space-between; margin-bottom: 5px; line-height: 0; }
 .skills-name { font-size: var(--normal-font-size); font-weight: var(--font-medium); }
 .skills-number { color: white; font-family: var(--body-font)}
 .skills-bar, .skills-percentage { height: 5px; border-radius: .25rem; transition: width var(--speed) var(--easing);}
