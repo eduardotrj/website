@@ -288,7 +288,7 @@ article{
     .skills-arrow { margin-left: auto; }
         .skills-active .skills-arrow { transform: rotate(-90deg); transition: .4s; }
 .skills-data { margin-top: 0vh; }
-.skills-title { font-size: var(--h3-font-size); font-weight: var(--font-medium); line-height: 0px; }
+.skills-title { font-size: var(--h3-font-size); font-weight: var(--font-medium); line-height: 0;  margin-bottom: -5px }
 .skills-subtitle { font-size: var(--small-font-size); }
 .skills-list { row-gap: 1.8rem; }
 .skills-titles { display: flex; justify-content: space-between; margin-bottom: .5rem; line-height: 0; }
