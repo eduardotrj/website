@@ -123,6 +123,14 @@ tabs.forEach(tab => {
 
 
 // Porfolio page
+
+document.addEventListener('DOMContentLoaded', () => {
+  const list = document.querySelector('ul');
+  const items = list.querySelectorAll('li');
+  console.log(items); // just to check
+});
+
+
 const list = document.querySelector('ul')
 const items = list.querySelectorAll('li')
 const setIndex = (event) => {
