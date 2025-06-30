@@ -144,7 +144,7 @@ article{
   align-times: flex-start;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-   padding: 0 50vw 1vw 20vw;
+   padding: 0 48vw 1vw 18vw;
   background-color: var(--body-color);
   height: 100vh;
   
@@ -156,7 +156,7 @@ article{
   }
   p {
     padding: 15px;
-    font-size: 1.2em;
+    font-size: 1.6vh;
     padding-bottom: 0;
     text-justify: auto;
     align-content: center;
@@ -594,7 +594,7 @@ article{
  
 .contact-card {
   background-color: var(--box-color);
-  padding: 1rem;
+  padding: calc(0.6vh * 3);
   border-radius: .5rem;
   text-align: center;
   margin: 15px 0;
