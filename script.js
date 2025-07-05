@@ -74,27 +74,27 @@ document.addEventListener("scroll", (event) => {
   
     else if(numberPage < 1) {
         pages.Pg1.setAttribute("style","position: fixed; z-index: 2; top: 0; right: " + pagePosition + "vw;")
-        pages.Squema1.setAttribute("style","position: fixed; right: " 10 + pagePosition + "vw;")
+        // pages.Squema1.setAttribute("style","position: fixed; right: " 10 + pagePosition + "vw;")
     }
     else if(numberPage < 2) {
         pages.Pg2.setAttribute("style","position: fixed; z-index: 3; top: 0; left: " + pagePosition + "vw;")
-        pages.Squema2.setAttribute("style","position: fixed; right: " 10 + pagePosition + "vw;")
+        // pages.Squema2.setAttribute("style","position: fixed; right: " 10 + pagePosition + "vw;")
     }
     else if(numberPage < 3) {
         pages.Pg3.setAttribute("style","position: fixed; z-index: 4; top: 0; right: " + pagePosition + "vw;")
-        pages.Squema3.setAttribute("style","position: fixed; right: " 10 + pagePosition + "vw;")
+        // pages.Squema3.setAttribute("style","position: fixed; right: " 10 + pagePosition + "vw;")
     }
     else if(numberPage < 4) {
         pages.Pg4.setAttribute("style","position: fixed; z-index: 5; top: 0; left: " + pagePosition + "vw;")
-        pages.Squema4.setAttribute("style","position: fixed; right: " 10 + pagePosition + "vw;")
+        // pages.Squema4.setAttribute("style","position: fixed; right: " 10 + pagePosition + "vw;")
     }
     else if(numberPage < 5) {
         pages.Pg5.setAttribute("style","position: fixed; z-index: 6; top: 0; right: " + pagePosition + "vw;")
-        pages.Squema5.setAttribute("style","position: fixed; right: " 10 + pagePosition + "vw;")
+        // pages.Squema5.setAttribute("style","position: fixed; right: " 10 + pagePosition + "vw;")
     }
     else if(numberPage < 6) {
         pages.Pg6.setAttribute("style","position: fixed; z-index: 7; top: 0; left: " + pagePosition + "vw;")
-        pages.Squema6.setAttribute("style","position: fixed; right: " 10 + pagePosition + "vw;")
+        // pages.Squema6.setAttribute("style","position: fixed; right: " 10 + pagePosition + "vw;")
     }
     else if(numberPage >= 7) {
         pages.Pg6.setAttribute("style","position: fixed; z-index: 7; top: 0; opacity: 1;")
